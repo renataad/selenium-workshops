@@ -64,5 +64,8 @@ public class POPTest extends BaseTest {
                 .addToCart();
 
         Assert.assertEquals("Product hasn't been added to shopping cart!", successMessage, iFrameQuickViewPage.getResultMessage());
+
+        //DO DOKONCZENIA!!!
+
     }
 }
