@@ -15,9 +15,24 @@ import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
+//uprościć kod
 
 public class Waits {
     private WebDriver driver;
+
+    private By searchInputLocator = By.id("search_query_top");
+    private By searchButtonLocator = By.cssSelector("button[name='submit_search']");
+    private By myDressLocator = By.cssSelector("div[class='right-block']>h5>a[href*='id_product=4&']");
+    private By addToCartButtonLocator = By.cssSelector("#add_to_cart button");
+    private By resultMessageLocator = By.cssSelector("div#layer_cart div[class*='layer_cart_product'] h2");
+
+    public void searchItem(String inputText) {
+        WebElement searchInput = driver.findElement(searchInputLocator);
+        WebElement searchButton = driver.findElement(searchButtonLocator);
+        searchInput.clear();
+        searchInput.sendKeys(inputText);
+        searchButton.click();
+    }
 
     @Before
     public void setUp() {
@@ -30,42 +45,34 @@ public class Waits {
     @Test
     public void implicitWait() {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        searchItem("Printed dress");
 
-        WebElement searchInput = driver.findElement(By.id("search_query_top"));
-        WebElement searchButton = driver.findElement(By.cssSelector("button[name='submit_search']"));
-        searchInput.clear();
-        searchInput.sendKeys("Printed dress");
-        searchButton.click();
-
-        WebElement myDress = driver.findElement(By.cssSelector("div[class='right-block']>h5>a[href*='id_product=4&']"));
+        WebElement myDress = driver.findElement(myDressLocator);
         myDress.click();
-        WebElement addToCartButton = driver.findElement(By.cssSelector("#add_to_cart button"));
+        WebElement addToCartButton = driver.findElement(addToCartButtonLocator);
         addToCartButton.click();
         String successMessage = "Product successfully added to your shopping cart";
-        WebElement resultMessage = driver.findElement(By.cssSelector("div#layer_cart div[class*='layer_cart_product'] h2"));
+        WebElement resultMessage = driver.findElement(resultMessageLocator);
         Assert.assertEquals("Wrong message", successMessage, resultMessage.getAttribute("innerText").trim());
     }
 
     @Test
     public void explicitWait() {
-        WebElement searchInput = driver.findElement(By.id("search_query_top"));
-        WebElement searchButton = driver.findElement(By.cssSelector("button[name='submit_search']"));
-        searchInput.clear();
-        searchInput.sendKeys("Printed dress");
-        searchButton.click();
-        WebElement myDress = driver.findElement(By.cssSelector("div[class='right-block'] h5 a[href*='id_product=4&']"));
+        searchItem("Printed dress");
+
+        WebElement myDress = driver.findElement(myDressLocator);
         myDress.click();
         WebElement increaseQuantity = driver.findElement(By.cssSelector(".icon-plus"));
         increaseQuantity.click();
         WebElement sizeDropdown = driver.findElement(By.cssSelector("#group_1"));
         Select select = new Select(sizeDropdown);
         select.selectByVisibleText("M");
-        WebElement addToCartButton = driver.findElement(By.cssSelector("#add_to_cart button"));
+        WebElement addToCartButton = driver.findElement(addToCartButtonLocator);
         addToCartButton.click();
         String successMessage = "Product successfully added to your shopping cart";
 
         WebDriverWait wait = new WebDriverWait(driver, 5);
-        WebElement resultMessage = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@id='layer_cart']//div[@class='layer_cart_product col-xs-12 col-md-6']//h2")));
+        WebElement resultMessage = wait.until(ExpectedConditions.presenceOfElementLocated(resultMessageLocator));
         Assert.assertEquals("Wrong message", successMessage, resultMessage.getAttribute("innerText").trim());
     }
 

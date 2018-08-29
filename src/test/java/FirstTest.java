@@ -35,7 +35,6 @@ public class FirstTest {
         WebElement searchInput = driver.findElement(By.id("search_query_top"));
         WebElement searchButton = driver.findElement(By.cssSelector("button[name='submit_search']"));
         searchInput.clear();
-        searchInput.click();
         searchInput.sendKeys("Printed dress");
         searchButton.click();
     }
