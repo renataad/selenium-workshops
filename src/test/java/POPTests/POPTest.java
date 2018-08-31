@@ -1,10 +1,12 @@
 package POPTests;
 
+import Pages.CheckoutSummaryPage;
 import Pages.IFrameQuickViewPage;
 import Pages.SignInPage;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
 public class POPTest extends BaseTest {
@@ -15,7 +17,7 @@ public class POPTest extends BaseTest {
     public void addToCart() {
         String successMessage = "Product successfully added to your shopping cart";
 
-        IFrameQuickViewPage iFrameQuickViewPage = mainPage.quickView()
+        IFrameQuickViewPage iFrameQuickViewPage = mainPage.firstProductQuickView()
                 .switchToIFrame(iFrameQuickViewLocator)
                 .addToCart();
 
@@ -26,7 +28,7 @@ public class POPTest extends BaseTest {
     public void checkIfPasswordInputIsActive() {
         String userEmail = "zzz@z.com";
         SignInPage signInPage = mainPage.clickSignIn()
-                .provideEmailInput(userEmail);
+                .provideEmailInput(userEmail + Keys.TAB);
         System.out.println(signInPage.isPasswordInputActive);
 
         Assert.assertTrue("Password input is inactive!", signInPage.isPasswordInputActive);
@@ -56,14 +58,26 @@ public class POPTest extends BaseTest {
     }
 
     @Test
-    public void checkout() {
+    public void orderByGuest() {
         String successMessage = "Product successfully added to your shopping cart";
 
-        IFrameQuickViewPage iFrameQuickViewPage = mainPage.quickView()
+        IFrameQuickViewPage iFrameQuickViewPage = mainPage.firstProductQuickView()
                 .switchToIFrame(iFrameQuickViewLocator)
                 .addToCart();
 
+        //check total price= total product + total shipping
+
         Assert.assertEquals("Product hasn't been added to shopping cart!", successMessage, iFrameQuickViewPage.getResultMessage());
+
+
+        CheckoutSummaryPage checkoutSummaryPage = iFrameQuickViewPage.proceedToCheckoutAndGoToCheckoutSummaryPage();
+
+        //sprawdz czy lista produktow nie jest pusta
+        //sprawdz quantity, product name, price, total price
+
+        checkoutSummaryPage.proceedToCheckoutAndGoToSignInPage()
+
+
 
         //DO DOKONCZENIA!!!
 

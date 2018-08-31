@@ -16,7 +16,6 @@ public class SignInPage extends BasePage {
 
     public SignInPage provideEmailInput(String value) {
         provideInput(emailInputLocator, value);
-        findElement(emailInputLocator).sendKeys(Keys.TAB);
         return this;
     }
     public boolean isPasswordInputActive = findElement(passwordInputLocator).isEnabled();

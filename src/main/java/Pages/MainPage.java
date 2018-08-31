@@ -20,11 +20,10 @@ public class MainPage extends BasePage {
         super(driver);
     }
 
-    public IFrameQuickViewPage quickView() {
+    public IFrameQuickViewPage firstProductQuickView() {
         List<WebElement> productList = findElements(productListLocator);
         WebElement firstProductOnPage = productList.get(0);
         Actions action = new Actions(driver);
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", firstProductOnPage);
         action.moveToElement(firstProductOnPage).build().perform();
         clickOnElement(quickViewLocator);
         return new IFrameQuickViewPage(driver);
