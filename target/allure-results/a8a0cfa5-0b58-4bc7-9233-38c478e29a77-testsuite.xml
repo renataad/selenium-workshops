@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536342471197" stop="1536342526307" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Waits</name>
+    <test-cases>
+        <test-case start="1536342472047" stop="1536342500038" status="passed">
+            <name>implicitWait</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-78600G5"/>
+                <label name="thread" value="1508@DESKTOP-78600G5.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1536342500157" stop="1536342512491" status="passed">
+            <name>checkIfSpecialPriceIsCorrect</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-78600G5"/>
+                <label name="thread" value="1508@DESKTOP-78600G5.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1536342512498" stop="1536342526269" status="passed">
+            <name>explicitWait</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-78600G5"/>
+                <label name="thread" value="1508@DESKTOP-78600G5.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

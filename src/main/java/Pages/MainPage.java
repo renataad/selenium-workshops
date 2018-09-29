@@ -1,5 +1,6 @@
 package Pages;
 
+import Driver.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -14,43 +15,39 @@ public class MainPage extends BasePage {
 
     private By productListLocator = By.xpath("//ul[@id='homefeatured']//a[@class='product_img_link']");
     private By quickViewLocator = By.className("quick-view");
+    private By socialMediaListLocator = By.cssSelector("#social_block a");
+    private String socialMediaLocator = "#social_block li.";
 
 
-    public MainPage(WebDriver driver) {
-        super(driver);
+    public void clickOnSocialMedia(String parametr) {
+        clickOnElement(By.cssSelector(socialMediaLocator + parametr));
+
     }
 
     public IFrameQuickViewPage firstProductQuickView() {
         List<WebElement> productList = findElements(productListLocator);
         WebElement firstProductOnPage = productList.get(0);
-        Actions action = new Actions(driver);
-        action.moveToElement(firstProductOnPage).build().perform();
+        actions.moveToElement(firstProductOnPage).build().perform();
         clickOnElement(quickViewLocator);
-        return new IFrameQuickViewPage(driver);
-
+        return new IFrameQuickViewPage();
     }
 
     public String getParentWindowHandle() {
-        return driver.getWindowHandle();
+        return Driver.getDriver().getWindowHandle();
     }
 
-    public Set <String> getAllWindowHandles() {
-        return driver.getWindowHandles();
-    }
 
-    public List <WebElement> getSocialMediaList() {
-        By socialMediaListLocator = By.cssSelector("#social_block a");
+
+    public List<WebElement> getSocialMediaList() {
+
         return findElements(socialMediaListLocator);
     }
 
-    public void switchWindow(String handle) {
-        driver.switchTo().window(handle);
-    }
 
-    public void closeActiveWindow(){
-        driver.close();
-    }
 
+    public void closeActiveWindow() {
+        Driver.getDriver().close();
+    }
 
 }
 

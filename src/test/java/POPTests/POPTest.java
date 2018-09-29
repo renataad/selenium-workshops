@@ -1,8 +1,7 @@
 package POPTests;
 
-import Pages.CheckoutSummaryPage;
 import Pages.IFrameQuickViewPage;
-import Pages.SignInPage;
+import Pages.AutenticationPages.SignInPage;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -14,7 +13,7 @@ public class POPTest extends BaseTest {
     private By iFrameQuickViewLocator = By.xpath("//iframe[@src='http://automationpractice.com/index.php?id_product=1&controller=product&content_only=1']");
 
     @Test
-    public void addToCart() {
+    public void addToCartFromQuickView() {
         String successMessage = "Product successfully added to your shopping cart";
 
         IFrameQuickViewPage iFrameQuickViewPage = mainPage.firstProductQuickView()
@@ -27,7 +26,7 @@ public class POPTest extends BaseTest {
     @Test
     public void checkIfPasswordInputIsActive() {
         String userEmail = "zzz@z.com";
-        SignInPage signInPage = mainPage.clickSignIn()
+        SignInPage signInPage = mainPage.clickSignInLink()
                 .provideEmailInput(userEmail + Keys.TAB);
         System.out.println(signInPage.isPasswordInputActive);
 
@@ -58,9 +57,11 @@ public class POPTest extends BaseTest {
     }
 
     @Test
-    public void orderByGuest() {
+    public void orderWithLogIn() {
+        String userEmail = "zzz@z.com";
+        String userPassword = "zzzzz";
         String successMessage = "Product successfully added to your shopping cart";
-
+        String successOrderMessage= "Your order on My Store is complete.";
         IFrameQuickViewPage iFrameQuickViewPage = mainPage.firstProductQuickView()
                 .switchToIFrame(iFrameQuickViewLocator)
                 .addToCart();
@@ -69,17 +70,33 @@ public class POPTest extends BaseTest {
 
         Assert.assertEquals("Product hasn't been added to shopping cart!", successMessage, iFrameQuickViewPage.getResultMessage());
 
-
-        CheckoutSummaryPage checkoutSummaryPage = iFrameQuickViewPage.proceedToCheckoutAndGoToCheckoutSummaryPage();
+        String orderResultMessage = iFrameQuickViewPage.proceedToCheckoutAndGoToCheckoutSummaryPage()
 
         //sprawdz czy lista produktow nie jest pusta
         //sprawdz quantity, product name, price, total price
 
-        checkoutSummaryPage.proceedToCheckoutAndGoToSignInPage()
+                .proceedToCheckoutAndGoToSignInPage()
+                .provideEmailInput(userEmail + Keys.TAB)
+                .providePasswordInput(userPassword)
+                .clickSignInButtonAndGoToAddressPage()
+                .proccedToCheckoutAndGoToShippingPage()
+                .acceptTermsOfService()
+                .proceedToCheckoutAndGoToPaymentPage()
+                .clickPayByCheck()
+                .confirmOrder()
+                .getOrderResultMessage();
 
-
-
-        //DO DOKONCZENIA!!!
+        Assert.assertEquals("Order result message is different than success message",successOrderMessage,orderResultMessage);
+                //sprawdz czy lista produktow nie jest pusta
+                //sprawdz quantity, product name, price, total price
 
     }
+
+    // check minicart functionalities
+
+// TESTY Z RULE
+// TESTY SCREENY
+
+
+
 }

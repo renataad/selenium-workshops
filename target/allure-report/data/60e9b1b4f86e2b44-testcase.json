@@ -1,0 +1,47 @@
+{
+  "uid" : "60e9b1b4f86e2b44",
+  "name" : "checkSocialMediaPageTitle[1: Open social media link for twitter and expect title with twitter]",
+  "title" : "Check social media page title [1: Open social media link for twitter and expect title with twitter]",
+  "time" : {
+    "start" : 1536013200577,
+    "stop" : 1536013210737,
+    "duration" : 10160
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "9204ab9a33fe2357",
+    "name" : "POPTests.TestWithParameters",
+    "title" : "Test with parameters"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-78600G5"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "POPTests.TestWithParameters"
+  }, {
+    "name" : "thread",
+    "value" : "15660@DESKTOP-78600G5.main(1)"
+  } ],
+  "parameters" : [ ]
+}

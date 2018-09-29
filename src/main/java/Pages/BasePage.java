@@ -1,51 +1,73 @@
 package Pages;
 
+import Driver.Driver;
+import Pages.AutenticationPages.SignInPage;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
+import java.util.Set;
 
 public class BasePage {
-    protected WebDriver driver;
     protected WebDriverWait wait;
+    protected Actions actions;
     private By signInLocator = By.className("login");
 
-    public BasePage(WebDriver driver) {
-        this.driver = driver;
-        wait = new WebDriverWait(driver, 30);
+    public BasePage() {
+        wait = new WebDriverWait(Driver.getDriver(), 30);
+        actions = new Actions(Driver.getDriver());
     }
 
     public void provideInput(By inputLocator, CharSequence value) {
-        WebElement input = driver.findElement((inputLocator));
+        WebElement input = findElement((inputLocator));
         input.clear();
         input.sendKeys(value);
     }
 
     public void clickOnElement(By elementBy) {
-        driver.findElement(elementBy).click();
+        findElement(elementBy).click();
     }
 
     public WebElement findElement(By elementBy) {
-        return driver.findElement(elementBy);
+        return Driver.getDriver().findElement(elementBy);
     }
 
     public List<WebElement> findElements(By elementBy) {
-        return driver.findElements(elementBy);
+        return Driver.getDriver().findElements(elementBy);
     }
 
     public MainPage switchToDefaultIFrame() {
-        driver.switchTo().defaultContent();
-        return new MainPage(driver);
+        Driver.getDriver().switchTo().defaultContent();
+        return new MainPage();
     }
 
-    public SignInPage clickSignIn() {
+    public SignInPage clickSignInLink() {
         clickOnElement(signInLocator);
-        return new SignInPage(driver);
+        return new SignInPage();
     }
 
     public String getTitle() {
-        return driver.getTitle();
+        return Driver.getDriver().getTitle();
+    }
+
+    public void switchWindow(String handle) {
+        Driver.getDriver().switchTo().window(handle);
+    }
+
+    public Set<String> getAllWindowHandles() {
+        return Driver.getDriver().getWindowHandles();
+    }
+
+    public void switchToNextWindow() {
+        String parentHandle = Driver.getDriver().getWindowHandle();
+        for (String handle : getAllWindowHandles()) {
+            if (!handle.equals(parentHandle)) {
+                switchWindow(handle);
+            }
+        }
+
+
     }
 }

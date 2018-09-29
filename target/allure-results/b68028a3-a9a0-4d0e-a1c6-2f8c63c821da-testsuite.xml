@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536341063991" stop="1536341088314" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Workshops2</name>
+    <test-cases>
+        <test-case start="1536341063992" stop="1536341078541" status="passed">
+            <name>findDressInProductList</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-78600G5"/>
+                <label name="thread" value="16388@DESKTOP-78600G5.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1536341078637" stop="1536341088058" status="passed">
+            <name>findDressInNameList</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-78600G5"/>
+                <label name="thread" value="16388@DESKTOP-78600G5.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

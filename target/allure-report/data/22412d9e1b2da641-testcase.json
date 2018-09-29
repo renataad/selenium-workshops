@@ -1,0 +1,47 @@
+{
+  "uid" : "22412d9e1b2da641",
+  "name" : "orderWithLogIn",
+  "title" : "Order with log in",
+  "time" : {
+    "start" : 1536013219986,
+    "stop" : 1536013244304,
+    "duration" : 24318
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "766b4722cf85bd00",
+    "name" : "POPTests.POPTest",
+    "title" : "POP test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-78600G5"
+  }, {
+    "name" : "thread",
+    "value" : "14188@DESKTOP-78600G5.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "POPTests.POPTest"
+  } ],
+  "parameters" : [ ]
+}

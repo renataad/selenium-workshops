@@ -1,3 +1,4 @@
+import io.github.bonigarcia.wdm.WebDriverManager;
 import javafx.beans.property.SetProperty;
 import javafx.scene.layout.Priority;
 import org.junit.After;
@@ -11,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import java.sql.DriverManager;
 import java.util.concurrent.TimeUnit;
 
 public class FirstTest {
@@ -18,7 +20,7 @@ public class FirstTest {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
@@ -58,3 +60,4 @@ public class FirstTest {
         driver.quit();
     }
 }
+
