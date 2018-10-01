@@ -1,16 +1,17 @@
 package POPTests;
 
-import Pages.IFrameQuickViewPage;
 import Pages.AutenticationPages.SignInPage;
-import org.junit.Assert;
-import org.junit.Test;
+import Pages.IFrameQuickViewPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class POPTest extends BaseTest {
 
     private By iFrameQuickViewLocator = By.xpath("//iframe[@src='http://automationpractice.com/index.php?id_product=1&controller=product&content_only=1']");
+
 
     @Test
     public void addToCartFromQuickView() {
@@ -30,7 +31,7 @@ public class POPTest extends BaseTest {
                 .provideEmailInput(userEmail + Keys.TAB);
         System.out.println(signInPage.isPasswordInputActive);
 
-        Assert.assertTrue("Password input is inactive!", signInPage.isPasswordInputActive);
+        Assert.assertTrue(signInPage.isPasswordInputActive, "Password input is inactive!");
     }
 
     @Test
@@ -47,7 +48,7 @@ public class POPTest extends BaseTest {
                     String pageTitle = mainPage.getTitle().toLowerCase();
                     boolean ifContainsName = pageTitle.contains(nameOfSocialMediaElement);
 
-                    Assert.assertTrue("Page Title does not contain " + nameOfSocialMediaElement, ifContainsName);
+                    Assert.assertTrue(ifContainsName,"Page Title does not contain " + nameOfSocialMediaElement);
 
                     mainPage.closeActiveWindow();
                 }

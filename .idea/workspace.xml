@@ -2,41 +2,226 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ec2b970-a30c-4aaf-ae25-dbb2c3a9fe4d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Pages/AutenticationPages/SignInPage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/POPTests/TestWithParameters.java" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/CheckoutSummaryPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/CheckoutPages/CheckoutSummaryPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/IFrameQuickViewPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/IFrameQuickViewPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/SignInPage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/TransactionResultPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/CheckoutPages/TransactionResultPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/POPTests/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/POPTests/BaseTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/POPTests/POPTest.java" afterPath="$PROJECT_DIR$/src/test/java/POPTests/POPTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Waits.java" afterPath="$PROJECT_DIR$/src/test/java/Waits.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Workshops2.java" afterPath="$PROJECT_DIR$/src/test/java/Workshops2.java" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0_beta1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Driver/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Driver/DriverManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Parallel TestSuite/Chrome Test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Parallel TestSuite/Chrome Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Parallel TestSuite/Firefox Test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Parallel TestSuite/Firefox Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Parallel TestSuite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-POPTests.POPTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel TestSuite/Chrome Test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel TestSuite/Firefox Test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel TestSuite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel TestSuite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel TestSuite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel TestSuite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel TestSuite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel TestSuite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel TestSuite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel TestSuite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel TestSuite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel TestSuite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/Surefire test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-parallel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumWorkshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumWorkshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POPTests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POPTests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/POPTests/POPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POPTests/POPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/1e07e63bbecccb93b06ffd6b43b46e4d.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/3fb9611bab3151e965e023162e86089a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/61aae920ab2f8fe604ba57b135aa9919.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/64b1e3c3d94863c86e92e89aea3a5c99.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/674f50d287a8c48dc19ba404d20fe713.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/912ec66d7572ff821749319396470bde.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/af7ae505a9eed503f8b8e6982036873e.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/b06871f281fee6b241d60582ae9369b9.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/21b2bc16d13e2343-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/22412d9e1b2da641-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/2aaf3acd62078d4e-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/38b3cd81e2bc1a0-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/4a2b48c48dda2d8a-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/4f2d1f9fdeefa09e-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/60e9b1b4f86e2b44-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/65fc62b249fcf621-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/71c31531fba3c2e7-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/7db64742d2c39f18-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/9270918e467ba796-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/bda3273003043122-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/cf507e7fde30802d-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/d59cd1152fee0206-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/defects.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/eca5fd18da72e7fc-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/fc49291d84808cc8-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/graph.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/plugins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/report.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/total.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/widgets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/data/xunit.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/f8ddfbfcb1a4e191ee1fa7f98417280e.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/fa4b5e31eae6378a0dfa9e10cfb9262f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/fee66e712a8a08eef5805a46892932ad.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-report/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1ed96800-0e4b-46a9-8c10-12c49006614c-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/27e6e125-a111-49b3-8b80-06a4186ce716-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/361b6575-3b37-4140-80f3-a0378426e194-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/43cda11f-96a9-4225-8e4d-a59f19d9b279-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/55776a62-60f7-4a3f-bf82-48651a1e0e2e-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7bc7cbef-abed-4c20-badd-a03c9fb0de15-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/86c57021-bbee-4112-b9ee-9b956a7af86b-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9b56c24d-4447-4943-82c4-6c04c1ce436a-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a8a0cfa5-0b58-4bc7-9233-38c478e29a77-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b0af700c-f4b5-47a4-859c-db36286de317-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b297c13e-bb00-449f-b097-92e576a5db19-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b2cf2a92-0938-433b-841b-f5ea00614642-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b68028a3-a9a0-4d0e-a1c6-2f8c63c821da-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cc997802-a10b-4ce5-bade-5a115b71db13-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ceb9624d-98f5-4465-b47a-e7587be51e21-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cee3619e-1f5a-4408-b68b-3e119e036b24-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e6dd88ac-1f96-4f8f-b0d9-3376fd71dc3f-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/eb7ac0f6-83b4-48f9-b850-58347aad6b5c-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fc23ad20-8e6b-4fa5-bc63-238c1f640add-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ffc9a5a3-45a0-44df-94f2-ac002d27db8d-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Driver/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Driver/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/AutenticationPages/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/AutenticationPages/SignInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/AddressPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/AddressPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/CheckoutSummaryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/CheckoutSummaryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/OrderSuccessPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/OrderSuccessPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/PaymentConfirmationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/PaymentConfirmationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/PaymentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/PaymentPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/ShippingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/ShippingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/TransactionResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/CheckoutPages/TransactionResultPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/IFrameQuickViewPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/IFrameQuickViewPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/maven-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/css/maven-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FirstTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/POPTests.POPTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/POPTests.POPTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/POPTests.TestWithParameters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FirstTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-POPTests.POPTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-POPTests.POPTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-POPTests.TestWithParameters.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Waits.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Workshops2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Waits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Workshops2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/POPTests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/POPTests/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/POPTests/POPTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/POPTests/POPTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/POPTests/TestWithParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/POPTests/TestWithParameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Waits.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Waits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Workshops2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Workshops2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SeleniumWorkshop$FirstTest.coverage" NAME="FirstTest Coverage Results" MODIFIED="1533842622340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1452361049">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1877" />
+          <entry key="xml" value="59" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1877" />
+          <entry key="XML" value="59" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="java" value="14" />
+          <entry key="pom" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="14" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="POPTest.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/POPTests/POPTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="97" column="3" lean-forward="false" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
+            <state relative-caret-position="240">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,41 +229,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="390">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+              <folding>
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Workshops2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Workshops2.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Driver/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/POPTests/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Driver/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="22" column="98" lean-forward="false" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
+            <state relative-caret-position="630">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,22 +266,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Waits.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Waits.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Driver/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="285">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1949#1950#0" expanded="true" />
+                <element signature="e#1984#1985#0" expanded="true" />
+                <element signature="e#2019#2020#0" expanded="true" />
+                <element signature="e#2103#2104#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng-parallel.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2278">
-              <caret line="134" column="41" lean-forward="false" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="105" column="36" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1491#1492#0" expanded="true" />
+                <element signature="e#1574#1575#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CheckoutPages/AddressPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/IFrameQuickViewPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -119,20 +348,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>all</find>
+      <find>Driver.getBrowserName()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/CategoryPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/BasePage.java" />
@@ -141,8 +365,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Pages/CategoryPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/POPTests/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Driver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/POPTests/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/IFrameQuickViewPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/TransactionResultPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/POPTests/ParametrizedTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/POPTests/TestWithParameters.java" />
@@ -150,8 +372,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Pages/AddressPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/SignInPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/ShippingPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/PaymentPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/PaymentConfirmationPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/OrderSuccessPage.java" />
@@ -161,9 +381,25 @@
         <option value="$PROJECT_DIR$/src/test/java/Waits.java" />
         <option value="$PROJECT_DIR$/src/test/java/Workshops2.java" />
         <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Driver/Browsers.java" />
+        <option value="$PROJECT_DIR$/tesng-parallel.xml" />
+        <option value="$PROJECT_DIR$/testng-parallel.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/IFrameQuickViewPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/POPTests/POPTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Driver/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/Driver/Driver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/POPTests/BaseTest.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -187,124 +423,109 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="9" />
-    <option name="width" value="1366" />
-    <option name="height" value="726" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SeleniumWorkshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWorkshop" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-workshops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-workshops" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SeleniumWorkshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWorkshop" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-workshops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-workshops" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SeleniumWorkshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWorkshop" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-workshops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-workshops" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SeleniumWorkshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWorkshop" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-workshops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-workshops" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SeleniumWorkshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWorkshop" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-workshops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-workshops" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Driver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SeleniumWorkshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWorkshop" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-workshops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-workshops" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SeleniumWorkshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWorkshop" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-workshops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-workshops" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="CheckoutPages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-workshops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-workshops" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SeleniumWorkshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWorkshop" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-workshops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-workshops" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SeleniumWorkshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWorkshop" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-workshops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-workshops" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="POPTests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SeleniumWorkshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWorkshop" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-workshops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-workshops" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SeleniumWorkshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWorkshop" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="allure-report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SeleniumWorkshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWorkshop" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="allure-results" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ToolWindowDocumentation.ShowToolbar" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538430153992" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SeleniumJavaWorkshop-master" />
-    <property name="ToolWindowDocumentation.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -330,172 +551,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.POPTest.checkIfPasswordInputIsActive">
+  <component name="RunManager" selected="TestNG.POPTest.addToCartFromQuickView">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="POPTest.addToCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="POPTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWorkshop" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="POPTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="SeleniumWorkshop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="POPTests" />
       <option name="MAIN_CLASS_NAME" value="POPTests.POPTest" />
-      <option name="METHOD_NAME" value="addToCart" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="POPTest.addToCartFromQuickView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="POPTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumWorkshop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="POPTests" />
-      <option name="MAIN_CLASS_NAME" value="POPTests.POPTest" />
-      <option name="METHOD_NAME" value="addToCartFromQuickView" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="POPTest.checkIfPasswordInputIsActive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="SeleniumWorkshop" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="POPTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="SeleniumWorkshop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="POPTests" />
       <option name="MAIN_CLASS_NAME" value="POPTests.POPTest" />
       <option name="METHOD_NAME" value="checkIfPasswordInputIsActive" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="POPTest.checkSocialMediaPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="POPTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumWorkshop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="POPTests" />
-      <option name="MAIN_CLASS_NAME" value="POPTests.POPTest" />
-      <option name="METHOD_NAME" value="checkSocialMediaPageTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="POPTest.orderWithLogIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="SeleniumWorkshop" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="POPTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="SeleniumWorkshop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="POPTests" />
       <option name="MAIN_CLASS_NAME" value="POPTests.POPTest" />
       <option name="METHOD_NAME" value="orderWithLogIn" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SeleniumWorkshop [site]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -515,6 +637,7 @@
                 <option value="pom.xml" />
               </list>
             </option>
+            <option name="pomFileName" />
             <option name="profilesMap">
               <map />
             </option>
@@ -523,67 +646,78 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration name="POPTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWorkshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POPTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="POPTests" />
+      <option name="MAIN_CLASS_NAME" value="POPTests.POPTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="POPTest.addToCartFromQuickView" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWorkshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POPTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="POPTests" />
+      <option name="MAIN_CLASS_NAME" value="POPTests.POPTest" />
+      <option name="METHOD_NAME" value="addToCartFromQuickView" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Maven.SeleniumWorkshop [site]" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.POPTest.addToCart" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.POPTest.checkIfPasswordInputIsActive" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.POPTest.checkSocialMediaPageTitle" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.POPTest.orderWithLogIn" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.POPTest.addToCartFromQuickView" />
+    <list>
+      <item itemvalue="Maven.SeleniumWorkshop [site]" />
+      <item itemvalue="JUnit.POPTest.checkIfPasswordInputIsActive" />
+      <item itemvalue="JUnit.POPTest.orderWithLogIn" />
+      <item itemvalue="JUnit.POPTest" />
+      <item itemvalue="TestNG.POPTest" />
+      <item itemvalue="TestNG.POPTest.addToCartFromQuickView" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.POPTest.checkIfPasswordInputIsActive" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.POPTest.addToCartFromQuickView" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.POPTest.orderWithLogIn" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.POPTest.addToCart" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.POPTest.checkSocialMediaPageTitle" />
+      <list>
+        <item itemvalue="TestNG.POPTest.addToCartFromQuickView" />
+        <item itemvalue="TestNG.POPTest" />
+        <item itemvalue="JUnit.POPTest.checkIfPasswordInputIsActive" />
+        <item itemvalue="JUnit.POPTest" />
+        <item itemvalue="JUnit.POPTest.orderWithLogIn" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -599,35 +733,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="POPTest_checkIfPasswordInputIsActive - 2018.08.31 at 17h 38m 59s.xml">
-      <configuration name="POPTest.checkIfPasswordInputIsActive" configurationId="JUnit" />
+    <history-entry file="POPTest - 2018.10.01 at 22h 25m 00s.xml">
+      <configuration name="POPTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="POPTest_checkIfPasswordInputIsActive - 2018.08.31 at 17h 44m 20s.xml">
-      <configuration name="POPTest.checkIfPasswordInputIsActive" configurationId="JUnit" />
+    <history-entry file="POPTest - 2018.10.01 at 22h 25m 55s.xml">
+      <configuration name="POPTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="POPTest_checkIfPasswordInputIsActive - 2018.08.31 at 17h 55m 15s.xml">
-      <configuration name="POPTest.checkIfPasswordInputIsActive" configurationId="JUnit" />
+    <history-entry file="POPTest - 2018.10.01 at 22h 26m 21s.xml">
+      <configuration name="POPTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="POPTest_checkIfPasswordInputIsActive - 2018.09.07 at 18h 02m 58s.xml">
-      <configuration name="POPTest.checkIfPasswordInputIsActive" configurationId="JUnit" />
+    <history-entry file="POPTest - 2018.10.01 at 22h 27m 32s.xml">
+      <configuration name="POPTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="POPTest_checkIfPasswordInputIsActive - 2018.09.07 at 18h 04m 25s.xml">
-      <configuration name="POPTest.checkIfPasswordInputIsActive" configurationId="JUnit" />
+    <history-entry file="POPTest - 2018.10.01 at 22h 29m 06s.xml">
+      <configuration name="POPTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="POPTest_checkIfPasswordInputIsActive - 2018.09.07 at 20h 02m 47s.xml">
-      <configuration name="POPTest.checkIfPasswordInputIsActive" configurationId="JUnit" />
+    <history-entry file="POPTest - 2018.10.01 at 22h 37m 12s.xml">
+      <configuration name="POPTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="POPTest_checkIfPasswordInputIsActive - 2018.09.13 at 23h 00m 30s.xml">
-      <configuration name="POPTest.checkIfPasswordInputIsActive" configurationId="JUnit" />
+    <history-entry file="POPTest - 2018.10.01 at 22h 39m 09s.xml">
+      <configuration name="POPTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="POPTest_orderWithLogIn - 2018.09.03 at 23h 29m 18s.xml">
-      <configuration name="POPTest.orderWithLogIn" configurationId="JUnit" />
+    <history-entry file="POPTest - 2018.10.01 at 22h 40m 14s.xml">
+      <configuration name="POPTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="POPTest_orderWithLogIn - 2018.09.07 at 17h 51m 54s.xml">
-      <configuration name="POPTest.orderWithLogIn" configurationId="JUnit" />
+    <history-entry file="POPTest - 2018.10.01 at 23h 09m 26s.xml">
+      <configuration name="POPTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="POPTest_orderWithLogIn - 2018.09.07 at 17h 52m 44s.xml">
-      <configuration name="POPTest.orderWithLogIn" configurationId="JUnit" />
+    <history-entry file="POPTest_addToCartFromQuickView - 2018.10.01 at 23h 39m 42s.xml">
+      <configuration name="POPTest.addToCartFromQuickView" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -640,300 +774,96 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="9" width="1366" height="726" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32451499" sideWeight="0.5030628" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21975498" sideWeight="0.4883721" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4250441" sideWeight="0.49387443" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32804233" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27182236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41025642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32451499" sideWeight="0.49693722" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24659607" sideWeight="0.5116279" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19797225" />
+      <window_info id="Structure" order="1" weight="0.24962178" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.32878152" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49359658" weight="0.29621848" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41025642" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991454" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5064034" side_tool="true" weight="0.33718488" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32991454" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4994664" visible="true" weight="0.3277311" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49626467" weight="0.32247898" />
+      <window_info anchor="right" x="92" y="92" width="1182" height="544" id="Documentation" internal_type="SLIDING" order="0" type="SLIDING" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.4883721" visible="true" weight="0.29669157" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.5116279" side_tool="true" weight="0.24659607" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19797225" />
+      <window_info id="Structure" order="1" weight="0.24962178" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.32878152" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49359658" visible="true" weight="0.36554623" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41025642" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991454" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5064034" side_tool="true" weight="0.33718488" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32991454" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4994664" weight="0.3277311" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49626467" weight="0.32247898" />
+      <window_info anchor="right" x="92" y="92" width="1182" height="544" id="Documentation" internal_type="SLIDING" order="0" type="SLIDING" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.4883721" visible="true" weight="0.21931697" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.5116279" side_tool="true" weight="0.24659607" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette" order="9" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="15" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Workshops2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/POPTests/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Waits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
-          <caret line="159" column="42" lean-forward="false" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Driver/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#815#816#0" expanded="false" />
-            <element signature="e#861#862#0" expanded="false" />
-            <element signature="e#912#913#0" expanded="false" />
-            <element signature="e#976#977#0" expanded="false" />
-            <element signature="e#1034#1035#0" expanded="false" />
-            <element signature="e#1099#1100#0" expanded="false" />
-            <element signature="e#1392#1393#0" expanded="false" />
-            <element signature="e#1444#1445#0" expanded="false" />
-            <element signature="e#1491#1492#0" expanded="false" />
-            <element signature="e#1551#1552#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Waits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="74" column="94" lean-forward="true" selection-start-line="74" selection-start-column="94" selection-end-line="74" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/POPTests/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/AutenticationPages/SignInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/IFrameQuickViewPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/POPTests/POPTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Workshops2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="126" lean-forward="false" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="126" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Waits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Waits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Workshops2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="126" lean-forward="false" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="126" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Workshops2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="126" lean-forward="false" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="126" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Waits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="10" lean-forward="false" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="1" lean-forward="false" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CategoryPage.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
-          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="311" column="0" lean-forward="false" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/POPTests/TestWithParameters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
-          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" />
           </folding>
         </state>
       </provider>
@@ -941,164 +871,181 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CheckoutPages/PaymentPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CheckoutPages/OrderSuccessPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CheckoutPages/PaymentConfirmationPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CheckoutPages/CheckoutSummaryPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/AutenticationPages/SignInPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/IFrameQuickViewPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CheckoutPages/ShippingPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CheckoutPages/TransactionResultPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CheckoutPages/AddressPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#815#816#0" expanded="false" />
-            <element signature="e#861#862#0" expanded="false" />
-            <element signature="e#912#913#0" expanded="false" />
-            <element signature="e#976#977#0" expanded="false" />
-            <element signature="e#1034#1035#0" expanded="false" />
-            <element signature="e#1099#1100#0" expanded="false" />
-            <element signature="e#1392#1393#0" expanded="false" />
-            <element signature="e#1444#1445#0" expanded="false" />
-            <element signature="e#1491#1492#0" expanded="false" />
-            <element signature="e#1551#1552#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/POPTests/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Waits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/allure-results/361b6575-3b37-4140-80f3-a0378426e194-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-report/index.html">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Waits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2278">
-          <caret line="134" column="41" lean-forward="false" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Workshops2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-345">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/POPTests/POPTest.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/IFrameQuickViewPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="97" column="3" lean-forward="false" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="105" column="36" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Driver/Browsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/allure-report/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng-parallel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Driver/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CheckoutPages/AddressPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Driver/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="22" column="98" lean-forward="false" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
+        <state relative-caret-position="285">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="e#2103#2104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/POPTests/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/POPTests/POPTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,43 +1,56 @@
 package Driver;
 
 import Pages.MainPage;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-public class Driver {
-    private static WebDriver driver;
+import static Driver.DriverManager.getChromeOptions;
+import static Driver.DriverManager.getFirefoxOptions;
 
-    public static WebDriver getDriver() {
-        if (null == driver) {
-            ChromeOptions options = new ChromeOptions();
-            options.setCapability("browserName", "chrome");
-            options.setCapability("platform", "LINUX");
+
+public class Driver {
+    private static WebDriver driverLocal;
+
+    private static final ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
+
+
+    public static void setUpDriver(String browser) {
+        if (browser.equals("firefox")) {
             try {
-                driver = new RemoteWebDriver(new URL("http://192.168.56.1:4444/wd/hub"), options);
+                driver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), getFirefoxOptions()));
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             }
-            driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        } else if (browser.equals("chrome")) {
+            try {
+                driver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), getChromeOptions()));
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            }
         }
-        return driver;
+
+    }
+
+    public static WebDriver getDriver() {
+        return driver.get();
+    }
+
+    public static void waitFor(){
+        getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     public static void quit() {
         if (null != driver) {
             getDriver().quit();
         }
-        driver = null;
     }
 
-    public static MainPage openPage(){
+    public static MainPage openPage() {
         getDriver().navigate().to("http://automationpractice.com");
         return new MainPage();
 
